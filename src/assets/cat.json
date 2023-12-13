@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "cat_image": "http://dummyimage.com/211x100.png/ff4444/ffffff",
+    "category": "Business"
+  },
+  {
+    "id": 2,
+    "cat_image": "http://dummyimage.com/218x100.png/5fa2dd/ffffff",
+    "category": "Technology"
+  },
+  {
+    "id": 3,
+    "cat_image": "http://dummyimage.com/218x100.png/5fa2dd/ffffff",
+    "category": "Business"
+  },
+  {
+    "id": 4,
+    "cat_image": "http://dummyimage.com/162x100.png/dddddd/000000",
+    "category": "Fashion"
+  },
+  {
+    "id": 5,
+    "cat_image": "http://dummyimage.com/177x100.png/dddddd/000000",
+    "category": "Food"
+  },
+  {
+    "id": 6,
+    "cat_image": "http://dummyimage.com/235x100.png/5fa2dd/ffffff",
+    "category": "Travel"
+  },
+  {
+    "id": 7,
+    "cat_image": "http://dummyimage.com/186x100.png/cc0000/ffffff",
+    "category": "Fashion"
+  },
+  {
+    "id": 8,
+    "cat_image": "http://dummyimage.com/238x100.png/cc0000/ffffff",
+    "category": "Business"
+  },
+  {
+    "id": 9,
+    "cat_image": "http://dummyimage.com/185x100.png/5fa2dd/ffffff",
+    "category": "Politics"
+  },
+  {
+    "id": 10,
+    "cat_image": "http://dummyimage.com/175x100.png/ff4444/ffffff",
+    "category": "Business"
+  },
+  {
+    "id": 11,
+    "cat_image": "http://dummyimage.com/121x100.png/5fa2dd/ffffff",
+    "category": "Politics"
+  },
+  {
+    "id": 12,
+    "cat_image": "http://dummyimage.com/148x100.png/cc0000/ffffff",
+    "category": "Food"
+  },
+  {
+    "id": 13,
+    "cat_image": "http://dummyimage.com/117x100.png/dddddd/000000",
+    "category": "Politics"
+  },
+  {
+    "id": 14,
+    "cat_image": "http://dummyimage.com/236x100.png/ff4444/ffffff",
+    "category": "Science"
+  },
+  {
+    "id": 15,
+    "cat_image": "http://dummyimage.com/208x100.png/5fa2dd/ffffff",
+    "category": "Technology"
+  }
+]
