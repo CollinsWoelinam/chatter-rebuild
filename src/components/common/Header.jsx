@@ -22,7 +22,9 @@ const Header = () => {
           className="navlink">
           Explore
         </Link>
-        <Link className="border-2 border-purple-500 rounded-md shadow bg-white text-center px-4 py-1">
+        <Link
+          className="border-2 border-purple-500 rounded-md shadow bg-white text-center px-4 py-1"
+          to={"login"}>
           Login
         </Link>
       </nav>

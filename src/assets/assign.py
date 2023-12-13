@@ -1,4 +1,92 @@
-[
+news_array = [
+  {
+    "id": 1,
+    "title": "Controversial Decision Sparks Debate",
+    "body": "Itaque earum rerum hic tenetur a sapiente delectus",
+    "author": "Chilton Getch",
+    "posted_on": "5/3/2023",
+    "news_image": "http://dummyimage.com/130x100.png/5fa2dd/ffffff",
+    "category": "Food",
+    "featured": True,
+    "headliner": False
+  },
+  {
+    "id": 2,
+    "title": "Exclusive Interview with Famous Celebrity",
+    "body": "consectetur adipiscing elit.",
+    "author": "Norry Howett",
+    "posted_on": "7/28/2023",
+    "news_image": "http://dummyimage.com/135x100.png/cc0000/ffffff",
+    "category": "Fashion",
+    "featured": True,
+    "headliner": True
+  },
+  {
+    "id": 3,
+    "title": "Controversial Decision Sparks Debate",
+    "body": "ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+    "author": "Adolpho Altoft",
+    "posted_on": "5/22/2023",
+    "news_image": "http://dummyimage.com/142x100.png/5fa2dd/ffffff",
+    "category": "Entertainment",
+    "featured": False,
+    "headliner": False
+  },
+  {
+    "id": 4,
+    "title": "Exclusive Interview with Famous Celebrity",
+    "body": "Nam libero tempore",
+    "author": "Jessa Gelderd",
+    "posted_on": "5/8/2023",
+    "news_image": "http://dummyimage.com/123x100.png/cc0000/ffffff",
+    "category": "Entertainment",
+    "featured": True,
+    "headliner": False
+  },
+  {
+    "id": 5,
+    "title": "Breaking News: New Discovery Made in Science",
+    "body": "Lorem ipsum dolor sit amet",
+    "author": "Mariya Calder",
+    "posted_on": "4/14/2023",
+    "news_image": "http://dummyimage.com/199x100.png/dddddd/000000",
+    "category": "Politics",
+    "featured": False,
+    "headliner": False
+  },
+  {
+    "id": 6,
+    "title": "Breaking News: New Discovery Made in Science",
+    "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+    "author": "Corty Pirt",
+    "posted_on": "9/13/2023",
+    "news_image": "http://dummyimage.com/210x100.png/5fa2dd/ffffff",
+    "category": "Health",
+    "featured": True,
+    "headliner": False
+  },
+  {
+    "id": 7,
+    "title": "Breaking News: New Discovery Made in Science",
+    "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+    "author": "Ivor Joddens",
+    "posted_on": "2/4/2023",
+    "news_image": "http://dummyimage.com/178x100.png/5fa2dd/ffffff",
+    "category": "Politics",
+    "featured": False,
+    "headliner": False
+  },
+  {
+    "id": 8,
+    "title": "Exclusive Interview with Famous Celebrity",
+    "body": "omnis dolor repellendus.",
+    "author": "Terese Work",
+    "posted_on": "10/2/2023",
+    "news_image": "http://dummyimage.com/225x100.png/5fa2dd/ffffff",
+    "category": "Entertainment",
+    "featured": False,
+    "headliner": False
+  },
   {
     "id": 9,
     "title": "Incredible Sports Comeback: Unbelievable Win",
@@ -7,8 +95,8 @@
     "posted_on": "10/11/2023",
     "news_image": "http://dummyimage.com/127x100.png/ff4444/ffffff",
     "category": "Politics",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 10,
@@ -18,997 +106,1010 @@
     "posted_on": "8/2/2023",
     "news_image": "http://dummyimage.com/219x100.png/dddddd/000000",
     "category": "Health",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 11,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Nam libero tempore",
-    "author": "Jessa Gelderd",
+    "author": "Halie Gandrich",
     "posted_on": "2/5/2023",
     "news_image": "http://dummyimage.com/202x100.png/dddddd/000000",
     "category": "Science",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 12,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "omnis dolor repellendus.",
-    "author": "Norry Howett",
+    "author": "Basia Luff",
     "posted_on": "10/20/2023",
     "news_image": "http://dummyimage.com/144x100.png/dddddd/000000",
     "category": "Food",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 13,
     "title": "Latest Updates on Global Economy",
     "body": "ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-    "author": "Adolpho Altoft",
+    "author": "Hildegaard McGaraghan",
     "posted_on": "3/24/2023",
     "news_image": "http://dummyimage.com/160x100.png/dddddd/000000",
     "category": "Food",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 14,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    "author": "Adolpho Altoft",
+    "author": "Tildi Raiman",
     "posted_on": "12/17/2022",
     "news_image": "http://dummyimage.com/132x100.png/cc0000/ffffff",
     "category": "Health",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 15,
     "title": "Controversial Decision Sparks Debate",
     "body": "consectetur adipiscing elit.",
-    "author": "Jessa Gelderd",
+    "author": "Tilly Soppett",
     "posted_on": "6/19/2023",
     "news_image": "http://dummyimage.com/184x100.png/ff4444/ffffff",
     "category": "Technology",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 16,
     "title": "Controversial Decision Sparks Debate",
     "body": "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    "author": "Brigitte Fairholm",
+    "author": "Lila Stoddard",
     "posted_on": "8/1/2023",
     "news_image": "http://dummyimage.com/143x100.png/5fa2dd/ffffff",
     "category": "Health",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 17,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Terese Work",
+    "author": "Helen-elizabeth Howison",
     "posted_on": "9/30/2023",
     "news_image": "http://dummyimage.com/111x100.png/ff4444/ffffff",
     "category": "Business",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 18,
     "title": "Controversial Decision Sparks Debate",
     "body": "consectetur adipiscing elit.",
-    "author": "Mariya Calder",
+    "author": "Tobe Skelington",
     "posted_on": "2/21/2023",
     "news_image": "http://dummyimage.com/123x100.png/ff4444/ffffff",
     "category": "Technology",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 19,
     "title": "Controversial Decision Sparks Debate",
     "body": "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    "author": "Vivianna Ambler",
+    "author": "Mariya Blundell",
     "posted_on": "11/16/2023",
     "news_image": "http://dummyimage.com/215x100.png/5fa2dd/ffffff",
     "category": "Entertainment",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 20,
     "title": "Controversial Decision Sparks Debate",
     "body": "omnis dolor repellendus.",
-    "author": "Corty Pirt",
+    "author": "Dreddy Clemetts",
     "posted_on": "10/13/2023",
     "news_image": "http://dummyimage.com/198x100.png/ff4444/ffffff",
     "category": "Politics",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 21,
     "title": "Controversial Decision Sparks Debate",
     "body": "omnis dolor repellendus.",
-    "author": "Mariya Calder",
+    "author": "Juliann Rozanski",
     "posted_on": "4/3/2023",
     "news_image": "http://dummyimage.com/233x100.png/cc0000/ffffff",
     "category": "Travel",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 22,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Similique sunt in culpa qui officia deserunt mollitia animi",
-    "author": "Jessa Gelderd",
+    "author": "Rab Bier",
     "posted_on": "7/8/2023",
     "news_image": "http://dummyimage.com/162x100.png/cc0000/ffffff",
     "category": "Entertainment",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 23,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Vivianna Ambler",
+    "author": "Joby Heersema",
     "posted_on": "4/21/2023",
     "news_image": "http://dummyimage.com/134x100.png/5fa2dd/ffffff",
     "category": "Sports",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 24,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "omnis dolor repellendus.",
-    "author": "Mariya Calder",
+    "author": "Hedda Esler",
     "posted_on": "12/7/2023",
     "news_image": "http://dummyimage.com/130x100.png/5fa2dd/ffffff",
     "category": "Food",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 25,
     "title": "Controversial Decision Sparks Debate",
     "body": "Omnis voluptas assumenda est",
-    "author": "Ivor Joddens",
+    "author": "Marcy Lowerson",
     "posted_on": "6/28/2023",
     "news_image": "http://dummyimage.com/231x100.png/ff4444/ffffff",
     "category": "Health",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 26,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "id est laborum et dolorum fuga.",
-    "author": "Jessa Gelderd",
+    "author": "Adrea Damiata",
     "posted_on": "3/1/2023",
     "news_image": "http://dummyimage.com/139x100.png/5fa2dd/ffffff",
     "category": "Sports",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 27,
     "title": "Controversial Decision Sparks Debate",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Jessa Gelderd",
+    "author": "Rhona Pietzker",
     "posted_on": "4/29/2023",
     "news_image": "http://dummyimage.com/159x100.png/ff4444/ffffff",
     "category": "Business",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 28,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Vivianna Ambler",
+    "author": "Giorgio Keddie",
     "posted_on": "8/12/2023",
     "news_image": "http://dummyimage.com/202x100.png/ff4444/ffffff",
     "category": "Health",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 29,
     "title": "Latest Updates on Global Economy",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Brigitte Fairholm",
+    "author": "Wilbert Hardin",
     "posted_on": "7/1/2023",
     "news_image": "http://dummyimage.com/244x100.png/5fa2dd/ffffff",
     "category": "Entertainment",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 30,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Similique sunt in culpa qui officia deserunt mollitia animi",
-    "author": "Brigitte Fairholm",
+    "author": "Timmy Rosenvasser",
     "posted_on": "8/23/2023",
     "news_image": "http://dummyimage.com/218x100.png/dddddd/000000",
     "category": "Entertainment",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 31,
     "title": "Controversial Decision Sparks Debate",
     "body": "Nam libero tempore",
-    "author": "Terese Work",
+    "author": "Julianne Rheubottom",
     "posted_on": "11/27/2023",
     "news_image": "http://dummyimage.com/221x100.png/5fa2dd/ffffff",
     "category": "Politics",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 32,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Mariya Calder",
+    "author": "Josias Abramamov",
     "posted_on": "1/21/2023",
     "news_image": "http://dummyimage.com/116x100.png/dddddd/000000",
     "category": "Fashion",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 33,
     "title": "Latest Updates on Global Economy",
     "body": "Et harum quidem rerum facilis est et expedita distinctio.",
-    "author": "Jessa Gelderd",
+    "author": "Elli Phillins",
     "posted_on": "8/27/2023",
     "news_image": "http://dummyimage.com/182x100.png/dddddd/000000",
     "category": "Business",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 34,
     "title": "Controversial Decision Sparks Debate",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Adolpho Altoft",
+    "author": "Bobine Alejandro",
     "posted_on": "11/15/2023",
     "news_image": "http://dummyimage.com/145x100.png/5fa2dd/ffffff",
     "category": "Business",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 35,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Mariya Calder",
+    "author": "Joelie Kempe",
     "posted_on": "6/17/2023",
     "news_image": "http://dummyimage.com/116x100.png/ff4444/ffffff",
     "category": "Business",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 36,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Et harum quidem rerum facilis est et expedita distinctio.",
-    "author": "Corty Pirt",
+    "author": "Kippar Leate",
     "posted_on": "12/20/2022",
     "news_image": "http://dummyimage.com/150x100.png/dddddd/000000",
     "category": "Technology",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 37,
     "title": "Controversial Decision Sparks Debate",
     "body": "ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-    "author": "Chilton Getch",
+    "author": "Bernie Willerton",
     "posted_on": "7/20/2023",
     "news_image": "http://dummyimage.com/242x100.png/dddddd/000000",
     "category": "Health",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 38,
     "title": "Latest Updates on Global Economy",
     "body": "Omnis voluptas assumenda est",
-    "author": "Mariya Calder",
+    "author": "John MacAlpin",
     "posted_on": "3/18/2023",
     "news_image": "http://dummyimage.com/208x100.png/ff4444/ffffff",
     "category": "Politics",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 39,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Norry Howett",
+    "author": "Janessa Ibbitt",
     "posted_on": "7/8/2023",
     "news_image": "http://dummyimage.com/172x100.png/ff4444/ffffff",
     "category": "Health",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 40,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "consectetur adipiscing elit.",
-    "author": "Brigitte Fairholm",
+    "author": "Court Frankcomb",
     "posted_on": "7/9/2023",
     "news_image": "http://dummyimage.com/172x100.png/ff4444/ffffff",
     "category": "Health",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 41,
     "title": "Controversial Decision Sparks Debate",
     "body": "id est laborum et dolorum fuga.",
-    "author": "Corty Pirt",
+    "author": "Lindon Elmhirst",
     "posted_on": "6/20/2023",
     "news_image": "http://dummyimage.com/119x100.png/5fa2dd/ffffff",
     "category": "Entertainment",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 42,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Corty Pirt",
+    "author": "Karissa Surgey",
     "posted_on": "9/1/2023",
     "news_image": "http://dummyimage.com/176x100.png/dddddd/000000",
     "category": "Food",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 43,
     "title": "Controversial Decision Sparks Debate",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Vivianna Ambler",
+    "author": "Cher Arlt",
     "posted_on": "12/31/2022",
     "news_image": "http://dummyimage.com/194x100.png/ff4444/ffffff",
     "category": "Food",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 44,
     "title": "Latest Updates on Global Economy",
     "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    "author": "Adolpho Altoft",
+    "author": "Ulises Zaple",
     "posted_on": "11/16/2023",
     "news_image": "http://dummyimage.com/219x100.png/cc0000/ffffff",
     "category": "Science",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 45,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Omnis voluptas assumenda est",
-    "author": "Ivor Joddens",
+    "author": "Elva Satch",
     "posted_on": "9/3/2023",
     "news_image": "http://dummyimage.com/107x100.png/ff4444/ffffff",
     "category": "Politics",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 46,
     "title": "Latest Updates on Global Economy",
     "body": "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    "author": "Chilton Getch",
+    "author": "Lotti Saberton",
     "posted_on": "10/15/2023",
     "news_image": "http://dummyimage.com/213x100.png/dddddd/000000",
     "category": "Travel",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 47,
     "title": "Controversial Decision Sparks Debate",
     "body": "consectetur adipiscing elit.",
-    "author": "Corty Pirt",
+    "author": "Sukey Greeno",
     "posted_on": "9/29/2023",
     "news_image": "http://dummyimage.com/155x100.png/cc0000/ffffff",
     "category": "Business",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 48,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "Nam libero tempore",
-    "author": "Terese Work",
+    "author": "Samson Manz",
     "posted_on": "12/2/2023",
     "news_image": "http://dummyimage.com/112x100.png/ff4444/ffffff",
     "category": "Fashion",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 49,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Vivianna Ambler",
+    "author": "Claudine Beers",
     "posted_on": "5/25/2023",
     "news_image": "http://dummyimage.com/163x100.png/cc0000/ffffff",
     "category": "Health",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 50,
     "title": "Latest Updates on Global Economy",
     "body": "Omnis voluptas assumenda est",
-    "author": "Brigitte Fairholm",
+    "author": "Rachelle Trowel",
     "posted_on": "11/2/2023",
     "news_image": "http://dummyimage.com/164x100.png/ff4444/ffffff",
     "category": "Travel",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 51,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "Nam libero tempore",
-    "author": "Mariya Calder",
+    "author": "Barron Tatam",
     "posted_on": "10/17/2023",
     "news_image": "http://dummyimage.com/103x100.png/cc0000/ffffff",
     "category": "Technology",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 52,
     "title": "Latest Updates on Global Economy",
     "body": "omnis dolor repellendus.",
-    "author": "Norry Howett",
+    "author": "Nelle Blazeby",
     "posted_on": "7/4/2023",
     "news_image": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
     "category": "Science",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 53,
     "title": "Controversial Decision Sparks Debate",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Adolpho Altoft",
+    "author": "Jeni Wagnerin",
     "posted_on": "5/25/2023",
     "news_image": "http://dummyimage.com/106x100.png/ff4444/ffffff",
     "category": "Food",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 54,
     "title": "Latest Updates on Global Economy",
     "body": "Et harum quidem rerum facilis est et expedita distinctio.",
-    "author": "Mariya Calder",
+    "author": "Brook Hirtzmann",
     "posted_on": "1/7/2023",
     "news_image": "http://dummyimage.com/101x100.png/5fa2dd/ffffff",
     "category": "Travel",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 55,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Jessa Gelderd",
+    "author": "Suzi Redhills",
     "posted_on": "6/8/2023",
     "news_image": "http://dummyimage.com/195x100.png/ff4444/ffffff",
     "category": "Health",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 56,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "id est laborum et dolorum fuga.",
-    "author": "Corty Pirt",
+    "author": "Elisabeth Allworthy",
     "posted_on": "1/13/2023",
     "news_image": "http://dummyimage.com/216x100.png/dddddd/000000",
     "category": "Business",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 57,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.",
-    "author": "Ivor Joddens",
+    "author": "Petunia Penkman",
     "posted_on": "8/3/2023",
     "news_image": "http://dummyimage.com/182x100.png/cc0000/ffffff",
     "category": "Technology",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 58,
     "title": "Latest Updates on Global Economy",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Corty Pirt",
+    "author": "Francis Iggo",
     "posted_on": "6/3/2023",
     "news_image": "http://dummyimage.com/206x100.png/5fa2dd/ffffff",
     "category": "Food",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 59,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "consectetur adipiscing elit.",
-    "author": "Terese Work",
+    "author": "Clayborn Belliveau",
     "posted_on": "5/12/2023",
     "news_image": "http://dummyimage.com/241x100.png/5fa2dd/ffffff",
     "category": "Entertainment",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 60,
     "title": "Controversial Decision Sparks Debate",
     "body": "Similique sunt in culpa qui officia deserunt mollitia animi",
-    "author": "Terese Work",
+    "author": "Keefer Crumbleholme",
     "posted_on": "8/17/2023",
     "news_image": "http://dummyimage.com/151x100.png/cc0000/ffffff",
     "category": "Health",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 61,
     "title": "Latest Updates on Global Economy",
     "body": "consectetur adipiscing elit.",
-    "author": "Brigitte Fairholm",
+    "author": "Persis Brabben",
     "posted_on": "7/8/2023",
     "news_image": "http://dummyimage.com/203x100.png/cc0000/ffffff",
     "category": "Travel",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 62,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Omnis voluptas assumenda est",
-    "author": "Brigitte Fairholm",
+    "author": "Cammy Meredith",
     "posted_on": "10/9/2023",
     "news_image": "http://dummyimage.com/127x100.png/5fa2dd/ffffff",
     "category": "Entertainment",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 63,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "consectetur adipiscing elit.",
-    "author": "Adolpho Altoft",
+    "author": "Euell Babbage",
     "posted_on": "8/30/2023",
     "news_image": "http://dummyimage.com/180x100.png/cc0000/ffffff",
     "category": "Sports",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 64,
     "title": "Controversial Decision Sparks Debate",
     "body": "Nam libero tempore",
-    "author": "Norry Howett",
+    "author": "Carolus Megainey",
     "posted_on": "4/24/2023",
     "news_image": "http://dummyimage.com/142x100.png/5fa2dd/ffffff",
     "category": "Sports",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 65,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "Similique sunt in culpa qui officia deserunt mollitia animi",
-    "author": "Mariya Calder",
+    "author": "Susanne Causbey",
     "posted_on": "7/29/2023",
     "news_image": "http://dummyimage.com/191x100.png/cc0000/ffffff",
     "category": "Travel",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 66,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
-    "author": "Mariya Calder",
+    "author": "Axel Coneley",
     "posted_on": "12/14/2022",
     "news_image": "http://dummyimage.com/160x100.png/dddddd/000000",
     "category": "Fashion",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 67,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "Similique sunt in culpa qui officia deserunt mollitia animi",
-    "author": "Corty Pirt",
+    "author": "Esmaria Newcomb",
     "posted_on": "2/14/2023",
     "news_image": "http://dummyimage.com/135x100.png/cc0000/ffffff",
     "category": "Technology",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 68,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Et harum quidem rerum facilis est et expedita distinctio.",
-    "author": "Mariya Calder",
+    "author": "Angelique Monget",
     "posted_on": "6/17/2023",
     "news_image": "http://dummyimage.com/239x100.png/ff4444/ffffff",
     "category": "Technology",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 69,
     "title": "Controversial Decision Sparks Debate",
     "body": "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    "author": "Brigitte Fairholm",
+    "author": "Idaline Skillings",
     "posted_on": "1/8/2023",
     "news_image": "http://dummyimage.com/174x100.png/dddddd/000000",
     "category": "Travel",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 70,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Nam libero tempore",
-    "author": "Mariya Calder",
+    "author": "Skippie Anstee",
     "posted_on": "9/30/2023",
     "news_image": "http://dummyimage.com/222x100.png/ff4444/ffffff",
     "category": "Entertainment",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 71,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Ivor Joddens",
+    "author": "Alexis Giannoni",
     "posted_on": "1/8/2023",
     "news_image": "http://dummyimage.com/179x100.png/cc0000/ffffff",
     "category": "Science",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 72,
     "title": "Controversial Decision Sparks Debate",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Brigitte Fairholm",
+    "author": "Fey Whitmell",
     "posted_on": "6/15/2023",
     "news_image": "http://dummyimage.com/127x100.png/ff4444/ffffff",
     "category": "Fashion",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 73,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Et harum quidem rerum facilis est et expedita distinctio.",
-    "author": "Terese Work",
+    "author": "Jarrett Entwhistle",
     "posted_on": "4/24/2023",
     "news_image": "http://dummyimage.com/203x100.png/cc0000/ffffff",
     "category": "Travel",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 74,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.",
-    "author": "Terese Work",
+    "author": "Merla Dayley",
     "posted_on": "12/2/2023",
     "news_image": "http://dummyimage.com/145x100.png/ff4444/ffffff",
     "category": "Travel",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 75,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Norry Howett",
+    "author": "Dillie Cockland",
     "posted_on": "2/10/2023",
     "news_image": "http://dummyimage.com/189x100.png/5fa2dd/ffffff",
     "category": "Politics",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 76,
     "title": "Latest Updates on Global Economy",
     "body": "Similique sunt in culpa qui officia deserunt mollitia animi",
-    "author": "Vivianna Ambler",
+    "author": "Anna-diana Turn",
     "posted_on": "1/3/2023",
     "news_image": "http://dummyimage.com/186x100.png/dddddd/000000",
     "category": "Politics",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 77,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
-    "author": "Vivianna Ambler",
+    "author": "Clary MacNeil",
     "posted_on": "3/21/2023",
     "news_image": "http://dummyimage.com/239x100.png/cc0000/ffffff",
     "category": "Travel",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 78,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Norry Howett",
+    "author": "Link MacGovern",
     "posted_on": "3/24/2023",
     "news_image": "http://dummyimage.com/183x100.png/dddddd/000000",
     "category": "Food",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 79,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Nam libero tempore",
-    "author": "Chilton Getch",
+    "author": "Toddie Trippick",
     "posted_on": "5/21/2023",
     "news_image": "http://dummyimage.com/144x100.png/5fa2dd/ffffff",
     "category": "Travel",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 80,
     "title": "Latest Updates on Global Economy",
     "body": "ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-    "author": "Vivianna Ambler",
+    "author": "Demetria O'Gormally",
     "posted_on": "2/7/2023",
     "news_image": "http://dummyimage.com/250x100.png/ff4444/ffffff",
     "category": "Entertainment",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 81,
     "title": "Controversial Decision Sparks Debate",
     "body": "Omnis voluptas assumenda est",
-    "author": "Mariya Calder",
+    "author": "Roman Gunning",
     "posted_on": "5/25/2023",
     "news_image": "http://dummyimage.com/241x100.png/5fa2dd/ffffff",
     "category": "Politics",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 82,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Omnis voluptas assumenda est",
-    "author": "Adolpho Altoft",
+    "author": "Tine Clayborn",
     "posted_on": "4/3/2023",
     "news_image": "http://dummyimage.com/237x100.png/cc0000/ffffff",
     "category": "Fashion",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 83,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Et harum quidem rerum facilis est et expedita distinctio.",
-    "author": "Ivor Joddens",
+    "author": "Larry Ierland",
     "posted_on": "6/11/2023",
     "news_image": "http://dummyimage.com/239x100.png/5fa2dd/ffffff",
     "category": "Health",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 84,
     "title": "Controversial Decision Sparks Debate",
     "body": "Omnis voluptas assumenda est",
-    "author": "Terese Work",
+    "author": "Nara Deniscke",
     "posted_on": "7/19/2023",
     "news_image": "http://dummyimage.com/246x100.png/cc0000/ffffff",
     "category": "Fashion",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 85,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.",
-    "author": "Terese Work",
+    "author": "Garrett Rothermel",
     "posted_on": "7/10/2023",
     "news_image": "http://dummyimage.com/178x100.png/cc0000/ffffff",
     "category": "Travel",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 86,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Nam libero tempore",
-    "author": "Norry Howett",
+    "author": "Karmen O'Henery",
     "posted_on": "4/13/2023",
     "news_image": "http://dummyimage.com/219x100.png/dddddd/000000",
     "category": "Politics",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 87,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Chilton Getch",
+    "author": "Hoyt Penson",
     "posted_on": "2/19/2023",
     "news_image": "http://dummyimage.com/130x100.png/cc0000/ffffff",
     "category": "Science",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 88,
     "title": "Latest Updates on Global Economy",
     "body": "Omnis voluptas assumenda est",
-    "author": "Norry Howett",
+    "author": "Gaultiero Alexandre",
     "posted_on": "2/13/2023",
     "news_image": "http://dummyimage.com/224x100.png/cc0000/ffffff",
     "category": "Entertainment",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 89,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Brigitte Fairholm",
+    "author": "Ddene Longley",
     "posted_on": "6/9/2023",
     "news_image": "http://dummyimage.com/215x100.png/cc0000/ffffff",
     "category": "Politics",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 90,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "consectetur adipiscing elit.",
-    "author": "Adolpho Altoft",
+    "author": "Hale Torritti",
     "posted_on": "2/23/2023",
     "news_image": "http://dummyimage.com/189x100.png/dddddd/000000",
     "category": "Entertainment",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 91,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
-    "author": "Brigitte Fairholm",
+    "author": "Othelia Hassard",
     "posted_on": "11/1/2023",
     "news_image": "http://dummyimage.com/209x100.png/ff4444/ffffff",
     "category": "Food",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 92,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "Nam libero tempore",
-    "author": "Brigitte Fairholm",
+    "author": "Rorke Mervyn",
     "posted_on": "5/22/2023",
     "news_image": "http://dummyimage.com/117x100.png/dddddd/000000",
     "category": "Health",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 93,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Itaque earum rerum hic tenetur a sapiente delectus",
-    "author": "Vivianna Ambler",
+    "author": "Dinnie Baitman",
     "posted_on": "10/27/2023",
     "news_image": "http://dummyimage.com/188x100.png/dddddd/000000",
     "category": "Politics",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 94,
     "title": "Controversial Decision Sparks Debate",
     "body": "Lorem ipsum dolor sit amet",
-    "author": "Vivianna Ambler",
+    "author": "Ermin Vertey",
     "posted_on": "11/12/2023",
     "news_image": "http://dummyimage.com/134x100.png/cc0000/ffffff",
     "category": "Health",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 95,
     "title": "Controversial Decision Sparks Debate",
     "body": "Similique sunt in culpa qui officia deserunt mollitia animi",
-    "author": "Mariya Calder",
+    "author": "Julieta Draysay",
     "posted_on": "6/11/2023",
     "news_image": "http://dummyimage.com/196x100.png/cc0000/ffffff",
     "category": "Food",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   },
   {
     "id": 96,
     "title": "Incredible Sports Comeback: Unbelievable Win",
     "body": "Nam libero tempore",
-    "author": "Norry Howett",
+    "author": "Burg Swithenby",
     "posted_on": "6/24/2023",
     "news_image": "http://dummyimage.com/126x100.png/ff4444/ffffff",
     "category": "Food",
-    "featured": false,
-    "headliner": true
+    "featured": False,
+    "headliner": True
   },
   {
     "id": 97,
     "title": "Exclusive Interview with Famous Celebrity",
     "body": "Nam libero tempore",
-    "author": "Chilton Getch",
+    "author": "Ariella Climance",
     "posted_on": "5/28/2023",
     "news_image": "http://dummyimage.com/211x100.png/dddddd/000000",
     "category": "Business",
-    "featured": true,
-    "headliner": true
+    "featured": True,
+    "headliner": True
   },
   {
     "id": 98,
     "title": "Latest Updates on Global Economy",
     "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    "author": "Ivor Joddens",
+    "author": "Bobbie Getley",
     "posted_on": "2/18/2023",
     "news_image": "http://dummyimage.com/170x100.png/cc0000/ffffff",
     "category": "Travel",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 99,
     "title": "Breaking News: New Discovery Made in Science",
     "body": "consectetur adipiscing elit.",
-    "author": "Jessa Gelderd",
+    "author": "Cybill Whipp",
     "posted_on": "7/1/2023",
     "news_image": "http://dummyimage.com/168x100.png/cc0000/ffffff",
     "category": "Technology",
-    "featured": false,
-    "headliner": false
+    "featured": False,
+    "headliner": False
   },
   {
     "id": 100,
     "title": "Latest Updates on Global Economy",
     "body": "Similique sunt in culpa qui officia deserunt mollitia animi",
-    "author": "Norry Howett",
+    "author": "Jo-ann Lamas",
     "posted_on": "12/18/2022",
     "news_image": "http://dummyimage.com/170x100.png/5fa2dd/ffffff",
     "category": "Fashion",
-    "featured": true,
-    "headliner": false
+    "featured": True,
+    "headliner": False
   }
 ]
+
+import random
+import json
+
+first_10_authors = [news['author'] for news in news_array[:10]]
+
+# Randomly assign the first 10 authors to the rest of the news articles
+for news in news_array[10:]:
+    news['author'] = random.choice(first_10_authors)
+
+# Print the modified news array as JSON
+json_result = json.dumps(news_array, indent=2)
+print(json_result)

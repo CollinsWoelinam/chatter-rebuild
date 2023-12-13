@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import data from "../assets/dataset.json";
+import { joinName } from "../util/util";
 
 const Details = () => {
   const { id } = useParams();
@@ -10,6 +11,7 @@ const Details = () => {
   }, []);
 
   console.log(news);
+
   return (
     <div className="px-20 mt-10">
       <img
@@ -18,10 +20,14 @@ const Details = () => {
         className="w-full rounded-md shadow h-[250px]"
       />
       <h1 className="text-xl font-medium tracking-wide text-gray-800 mt-5">
-        {news.title}
+        {news.title} -{" "}
+        <span className="italic text-sm font-light underline">
+          {" "}
+          <Link to={`/author/${joinName(news.author)}`}>{news.author}</Link>
+        </span>
       </h1>
 
-      <p>
+      <p className="mt-10">
         {news.body}
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, enim
         nam quia consequatur voluptates ipsa qui quos nesciunt, totam

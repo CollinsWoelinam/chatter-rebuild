@@ -3,6 +3,9 @@ import PageLayout from "./layout/PageLayout";
 import HomePage from "./pages/HomePage";
 import ExplorePage from "./pages/ExplorePage";
 import Details from "./pages/Details";
+import SignUpPage from "./pages/SignUpPage";
+import LoginPage from "./pages/LoginPage";
+import AuthorPage from "./pages/AuthorPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -22,8 +25,14 @@ function App() {
           path: "detail/:id",
           element: <Details />,
         },
+        {
+          path: "author/:name",
+          element: <AuthorPage />,
+        },
       ],
     },
+    { path: "signup", element: <SignUpPage /> },
+    { path: "login", element: <LoginPage /> },
   ]);
   return (
     <>
