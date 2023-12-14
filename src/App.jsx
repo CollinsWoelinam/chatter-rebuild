@@ -6,6 +6,7 @@ import Details from "./pages/Details";
 import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
 import AuthorPage from "./pages/AuthorPage";
+import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   const router = createBrowserRouter([
@@ -36,7 +37,9 @@ function App() {
   ]);
   return (
     <>
-      <RouterProvider router={router} />
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
     </>
   );
 }
